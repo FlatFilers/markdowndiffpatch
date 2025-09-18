@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 
-A markdown-focused diff and patch library with jsondiffpatch-compatible interfaces.
+A markdown-focused diff and patch library with [jsondiffpatch](https://github.com/benjamine/jsondiffpatch)-compatible interfaces.
 
 ## Installation
 
@@ -51,6 +51,11 @@ Reverses a patch operation.
 ### `reverse(delta: DiffResult): DiffResult`
 
 Reverses a delta so that it can be applied in the opposite direction.
+
+## Related Projects
+
+- [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - Diff & patch JavaScript objects
+- [htmldiffpatch](https://github.com/FlatFilers/htmldiffpatch) - Diff & patch for HTML documents
 
 ## License
 
